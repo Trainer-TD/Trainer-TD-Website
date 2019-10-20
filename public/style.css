@@ -1,0 +1,157 @@
+body {
+    width: 100vw;
+    height: 120vh;
+    margin: 0px;
+    background-color: rgb(15, 15, 15);
+}
+
+form {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    z-index: 2;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover {
+    color: silver;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(4, 6, 44);
+    color: white;
+    margin: 0px;
+    padding-top: 4vh;
+    margin-bottom: 2vh;
+    z-index: 2;
+    border-bottom: 1px solid silver;
+}
+
+header h2 {
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+    width: auto;
+}
+
+header img:hover {
+    opacity: 0.65;
+}
+
+footer {
+    position: absolute;
+    bottom: -25vh;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(4, 6, 44);
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    border-top: 1px solid silver;
+    z-index: 2;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer i:hover {
+    color: rgb(153, 153, 153);
+}
+
+input:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.background-icon img {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-images {
+    position: absolute;
+    bottom: 0vh;
+    left: 0;
+}
+.bottom-images img {
+    width: 6vw;
+    height: auto;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    z-index: 2;
+}
+
+.button-container p {
+    color: rgb(241, 79, 79);
+    font-size: 16px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.download-button a {
+    text-decoration: none;
+    color: rgb(43, 156, 43);
+}
+
+.download-button {
+    background-color: transparent;
+    color: rgb(43, 156, 43);
+    font-size: 1em;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 2;
+}
+
+.download-button a:hover {
+    color: white;
+}
+
+
+img.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    width: 100vw;
+    height: 120vh;
+    background-color: rgb(124, 124, 124);
+    opacity: 0.3;
+    z-index: 1;
+}
+
+

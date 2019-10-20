@@ -4,29 +4,49 @@
         <title>Trainer TD</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="public\style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script defer src="index.js"></script>
+        <script defer src="access.js"></script>
+        <script defer src="public\index.js"></script>
     </head>
-    <body>
+    <body onload="initialLoad()">
         <header class="display-flex">
-            <img class="logo" src="images\TrainerTD_Logo_White.png" >
-            <h2>Trainer TD</h2>
-            <h2>About</h2>
+            <img class="logo" src="public/images/TrainerTD_Logo_White.png" >
+            <h2><a href="index.html">Trainer TD</a></h2>
+            <h2><a href="public\pages\about.html">About</a></h2>
+            <h2><a href="public\pages\contact.html">Contact</a></h2>
         </header>
 
         <h1>Play Trainer Tower Defense Now</h1>
 
+        <form>
+            Enter Acess Key: <br/>
+            <input id="access" type="text" name="accessKey" onchange="writeAccessKey()"></input>
+            <button onclick="submitAccessKey();return false">Get Access</button>
+        </form>
+
         <div class="button-container">
+            <p id="denied">Not a valid access key</p>
             <button class="download-button" id="download">
-                Download <i class="fa fa-arrow-down"></i>
+                <a href="public\download\TrainerTD.zip" download>
+                    Download <i class="fa fa-arrow-down"></i>
+                </a>
             </button>
         </div>
 
+        <div class="bottom-images display-flex">
+            <img src="public\images\MythicDarkraiTower.PNG">
+            <img src="public\images\MythicPalkiaTower.PNG">
+            <img src="public\images\MythicXerneasTower.PNG">
+            <img src="public\images\MythicHeatranTower.PNG">
+        </div>
+
         <footer>
-            <i class="fa fa-github fa-2x"></i>
+            <a href="https://github.com/Trainer-TD/Trainer-TD" target="_blank">
+                <i class="fa fa-github fa-2x"></i>
+            </a>
         </footer>
 
-        <div class="overlay"></div>
+        <!-- <div class="overlay"></div> -->
     </body>
 </html>

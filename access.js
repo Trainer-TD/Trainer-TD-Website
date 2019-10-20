@@ -1,0 +1,1 @@
+const alphaAcessKey = '50t45E256';
