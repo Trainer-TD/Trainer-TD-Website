@@ -4,6 +4,7 @@
         <title>Trainer TD</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="public\images\TrainerTD_Logo_BlueMain.png">
         <link rel="stylesheet" type="text/css" href="public\style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script defer src="access.js"></script>
@@ -18,18 +19,24 @@
         </header>
 
         <h1>Play Trainer Tower Defense Now</h1>
+        <h4>Current Version: 0.2</h4>
 
         <form>
-            Enter Acess Key: <br/>
+            Enter Access Key: <br/>
             <input id="access" type="text" name="accessKey" onchange="writeAccessKey()"></input>
             <button onclick="submitAccessKey();return false">Get Access</button>
         </form>
 
         <div class="button-container">
             <p id="denied">Not a valid access key</p>
-            <button class="download-button" id="download">
-                <a href="public\download\TrainerTD.zip" download>
-                    Download <i class="fa fa-arrow-down"></i>
+            <button class="download-button" id="download-windows">
+                <a href="public\download\TrainerTD_0.2_Windows.zip" download>
+                    Download for <i class="fa fa-windows"></i>
+                </a>
+            </button>
+            <button class="download-button" id="download-mac">
+                <a href="public\download\TrainerTD_0.2_Mac.zip" download>
+                    Download for <i class="fa fa-apple"></i>
                 </a>
             </button>
         </div>
@@ -47,6 +54,5 @@
             </a>
         </footer>
 
-        <!-- <div class="overlay"></div> -->
     </body>
 </html>

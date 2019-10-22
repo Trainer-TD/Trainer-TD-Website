@@ -30,6 +30,11 @@ h2 a:hover {
     color: silver;
 }
 
+h4 {
+    color: white;
+    text-align: center;
+}
+
 header {
     width: 100vw;
     height: 10vh;
@@ -94,7 +99,7 @@ input:hover {
 }
 .bottom-images img {
     width: 6vw;
-    height: auto;
+    height: 6vh;
     margin-left: 9vw;
     margin-right: 9vw;
 }
@@ -130,6 +135,8 @@ input:hover {
     border-radius: 3px;
     text-align: center;
     z-index: 2;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .download-button a:hover {
