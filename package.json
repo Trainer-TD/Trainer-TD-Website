@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Trainer-TD/Trainer-TD-Website#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
